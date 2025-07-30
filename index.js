@@ -13,6 +13,7 @@ const app = express();
 // ✅ Allow only your frontend domain for CORS
 app.use(cors({
   origin: 'http://localhost:5173',
+  'https://docu-mind-wb79.vercel.app',
   credentials: true, // ✅ For sending cookies or tokens
 }));
 
